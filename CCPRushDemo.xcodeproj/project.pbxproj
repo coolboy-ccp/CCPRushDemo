@@ -13,6 +13,7 @@
 		004757281C8D7CB6002210A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004757261C8D7CB6002210A3 /* Main.storyboard */; };
 		0047572A1C8D7CB6002210A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004757291C8D7CB6002210A3 /* Assets.xcassets */; };
 		0047572D1C8D7CB6002210A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0047572B1C8D7CB6002210A3 /* LaunchScreen.storyboard */; };
+		004757361C8D8ADD002210A3 /* DrawPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 004757351C8D8ADD002210A3 /* DrawPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		004757291C8D7CB6002210A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0047572C1C8D7CB6002210A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0047572E1C8D7CB6002210A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004757341C8D8ADD002210A3 /* DrawPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPath.h; sourceTree = "<group>"; };
+		004757351C8D8ADD002210A3 /* DrawPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				004757211C8D7CB6002210A3 /* AppDelegate.m */,
 				004757231C8D7CB6002210A3 /* ViewController.h */,
 				004757241C8D7CB6002210A3 /* ViewController.m */,
+				004757341C8D8ADD002210A3 /* DrawPath.h */,
+				004757351C8D8ADD002210A3 /* DrawPath.m */,
 				004757261C8D7CB6002210A3 /* Main.storyboard */,
 				004757291C8D7CB6002210A3 /* Assets.xcassets */,
 				0047572B1C8D7CB6002210A3 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004757361C8D8ADD002210A3 /* DrawPath.m in Sources */,
 				004757251C8D7CB6002210A3 /* ViewController.m in Sources */,
 				004757221C8D7CB6002210A3 /* AppDelegate.m in Sources */,
 				0047571F1C8D7CB6002210A3 /* main.m in Sources */,
@@ -262,6 +268,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCPRushDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ccp.CCPRushDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCPRushDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ccp.CCPRushDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
